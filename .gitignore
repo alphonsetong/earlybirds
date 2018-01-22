@@ -1,0 +1,12 @@
+target/
+
+.idea/
+derby.log
+spark-warehouse/
+
+.DS_Store
+
+*.class
+*.log
+
+*.csv
