@@ -64,8 +64,8 @@ object EarlyBirdsSpark {
    // println(aggratingDF.show())
 
     storeDataInCSV(aggratingDF,destFolder,"aggratings.csv")
-    storeDataInCSV(userDF,destFolder,"userId.csv")
-    storeDataInCSV(itemDF,destFolder,"itemId.csv")
+    storeDataInCSV(userDF,destFolder,"lookupuser.csv")
+    storeDataInCSV(itemDF,destFolder,"lookup_product.csv")
 
     sparkSession.stop
   }
